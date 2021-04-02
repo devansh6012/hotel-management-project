@@ -1,0 +1,67 @@
+body{
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #fff;
+  background: url(images/lo1.jpg);
+  background-size: cover;
+}
+
+.signup
+{
+  background: rgba(44,62,80,0.7);
+  padding:40px;
+  width: 250px;
+  margin: auto;
+  margin-top: 80px;                                /*shifting form towards down*/
+  height: 430px;
+  margin-left: 480px;                              /*shifting form towards right*/
+}
+form{
+  width: 240px;
+  text-align: center;
+}
+
+input
+{
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-family: 'Play', sans-serif;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 10px 0;
+  transition: border 0.5s;
+  outline: none;
+  color: #fff;
+}
+.signup input[type=submit]
+{
+    border: none;                          /*after clicking submit rectangular box will appear*/
+    outline: none;
+    width: 200px;
+    height: 39px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 18px;
+}
+
+.signup input[type=submit]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.signup a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.signup a:hover
+{
+    color: #39dc79;
+}
+::placeholder{
+  color: aliceblue;
+}
