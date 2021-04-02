@@ -1,6 +1,6 @@
 Steps to be followed
 
-Place p2 folder in htdocs
+Place project folder in htdocs
 
 start XAMPP 
 In a Browser go to 
